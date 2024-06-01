@@ -7,6 +7,99 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    
+    <nav>
+        <picture>
+            <img src="logo/logo.png" alt="Logo inicial">
+        </picture>
+        <a href="#">O projeto</a>
+        <a href="#">O problema</a>
+        <a href="#">Sua Jornada</a>
+        <a href="#">Objetivos</a>
+        <a href="#" id="botao">Processo Seletivo</a>
+    </nav>
+
+    <main>
+        <section id="login">
+            <div id="formulário">
+                <h2>Formulário de Cadastro</h2>
+                <p>Preencha seus dados</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <input type="text" name="nome" id="inome" placeholder="Nome Completo*" required maxlength="50">
+                        <label for="inome">Nome:</label>
+                    </div>
+                    <div class="campo">
+                        <i></i>
+                        <input type="email" name="login" id="ilogin" placeholder="E-mail*" autocomplete="email" required maxlength="50">
+                        <label for="ilogin">E-mail:</label>
+                    </div>
+                    <div class="campo">
+                        <p>
+                            <select name="estado" id="iest">
+                                <option value="" selected>Estado*</option>
+                                <optgroup>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </optgroup>
+                            </select>
+                            <label for="iest"></label>
+                        </div>
+
+                        </p>
+                        <div id="prog">
+                            <legend>Conhecimento de Programação</legend>
+                            <label for="ihtml"><input type="checkbox" name="html" id="ihtml"> HTML </label>
+                            <label for="icss"><input type="checkbox" name="css" id="icss"> CSS </label>
+                            <label for="ijs"><input type="checkbox" name="js" id="ijs"> JavaScript </label>
+                            <label for="iphp"><input type="checkbox" name="php" id="iphp"> PHP <br></label>
+                            <label for="int"><input type="checkbox" name="nt" id="int"> .NT </label>
+                            <label for="ivue"><input type="checkbox" name="vue" id="ivue"> Vue.JS </label>
+                            <label for="ireact"><input type="checkbox" name="react" id="ireact"> ReactJS </label>
+                            <label for="inative"><input type="checkbox" name="native" id="inative"> React Native <br></label>
+                            <label for="inode"><input type="checkbox" name="node" id="inode"> Node </label>
+                            <label for="ipy"><input type="checkbox" name="py" id="ipy"> Python </label>
+                            <label for="iflutter"><input type="checkbox" name="flutter" id="iflutter"> Flutter </label>
+                            <label for="iou"><input type="checkbox" name="ou" id="iou"> Outras <br></label>
+                        </div>
+                        <div>
+                            <legend>Já trabahlou com desenvolvimento?</legend>
+                            <label for="in"><input type="checkbox" name="n" id="in"> Não </label>
+                            <label for="is"><input type="checkbox" name="s" id="is"> Sim </label>
+                        </div>
+                    </div>
+                    <a href="esqueci.html" class="botao">Enviar</a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <img src="icones/bannertopo.png" alt="">
+    </main>
 </body>
 </html>
