@@ -64,7 +64,7 @@ main img {
 
 section#login {
     position: absolute;
-    top: 90%;
+    top: 100%;
     right: 5px;
     overflow: hidden;
 
@@ -82,7 +82,6 @@ section#login {
 section#login > div#formulário {
     display: block;
     padding: 20px;
-     
 }
 
 div#formulário > h2 {
@@ -133,13 +132,22 @@ div.campo > input {
     transform: translateY(-4px);
 }
 
+div.campo > input::placeholder {
+    padding: 10px;
+}
+
 div#prog {
     display: block;
     background-color: var(--cor0);
     color: white;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: lighter;
-    padding: 0px;
+    padding: 10px;
+}
+
+div#prog > legend {
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
 input[type="checkbox"] {
@@ -187,6 +195,40 @@ a.botao {
     text-decoration: none;
 }
 
-/*form > a.botao:hover {
-    background-color: #6bd0cc;
+a.botao:hover {
+    background-color: var(--cor1);
+    color: var(--cor0);
+}
+
+p#p1 {
+    text-align: center;
+    color: var(--cor0);
+    font-size: .7em;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+p#p2 {
+    text-align: center;
+    color: rgb(180, 180, 180);
+    font-size: .6em;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 7px;
+}
+
+p#p2 > a {
+    color: var(--cor0);
+    text-decoration: none;
+}
+
+select[name="estado"] {
+    position: relative;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(229, 229, 229);
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    font-size: 0.7em; 
+    cursor: pointer;
 }
