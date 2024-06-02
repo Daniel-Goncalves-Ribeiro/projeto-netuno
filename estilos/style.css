@@ -232,3 +232,28 @@ select[name="estado"] {
     font-size: 0.7em; 
     cursor: pointer;
 }
+
+main#img2 img {
+    padding-left: 200px;
+    padding-top: 0px;
+    padding: 0px;
+    width: 30%;
+    margin-left: 200px;
+}
+
+div#informativo {
+    position: absolute;
+    top: 205%;
+    right: 290px;
+    overflow: hidden;
+    background-color: var(--cor0);
+    width: 400px;
+    height: 300px;
+}
+
+div#informativo > h2 {
+    background: linear-gradient(to right, var(--cor0), var(--cor1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
