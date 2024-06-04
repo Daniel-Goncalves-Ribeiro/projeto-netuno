@@ -112,7 +112,7 @@ form > div.campo {
     border: 1px solid gray;
 }
 
-div.campo > label, option {
+div.campo > label {
     display: none;
 }
 
@@ -751,4 +751,9 @@ div#obj3 > p#p13 {
     padding-right: 70px;
     font-size: 1em;
     font-weight: normal;
+}
+
+footer {
+    width: auto;
+    background-color: var(--cor2);
 }
