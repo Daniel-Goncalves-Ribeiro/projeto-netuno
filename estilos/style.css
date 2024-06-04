@@ -756,4 +756,101 @@ div#obj3 > p#p13 {
 footer {
     width: auto;
     background-color: var(--cor2);
+    color: var(--cor3);
+    position: relative;
+}
+
+footer > img#logo{
+    position: absolute;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+footer > img#fb {
+    position: absolute;
+    width: 18px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+footer > img#ig {
+    position: absolute;
+    width: 18px;
+    margin-left: 230px;
+    margin-top: 150px;
+}
+
+footer > img#in {
+    position: absolute;
+    width: 18px;
+    margin-left: 260px;
+    margin-top: 150px;
+}
+
+footer > p#p14 {
+    position: absolute;
+    font-size: 0.5em;
+    margin-left: 200px;
+    margin-top: 180px;  
+}
+
+footer > p#p15 {
+    font-size: 1em;
+    margin-left: 900px;
+    margin-top: 70px;  
+}
+
+footer > p#p16 {
+    font-size: 1em;
+    margin-left: 900px;
+    margin-top: 15px;  
+}
+
+footer > p#p17 {
+    font-size: 1em;
+    margin-left: 900px;
+    margin-top: 15px;  
+}
+
+footer > p#p18 {
+    font-size: 1em;
+    margin-left: 900px;
+    margin-top: 15px; 
+}
+
+.divider {
+    position: absolute;
+    height: 50%;
+    width: 1px;
+    background-color: var(--cor3);
+    margin-left: 1050px;
+    margin-top: 80px;
+}
+
+.divider:nth-child(odd) {
+    top: 0;
+}
+
+.divider:nth-child(even) {
+    bottom: 0;
+}
+
+footer > p#p19 {
+    position: absolute;
+    font-size: 1em;
+    margin-left: 1100px;
+    margin-top: -130px;  
+}
+
+footer > p#p20 {
+    font-size: 1em;
+    margin-left: 1100px;
+    margin-top: -90px;  
+}
+
+footer > p#p21 {
+    font-size: 1em;
+    margin-left: 1100px;
+    margin-top: 15px;  
 }
