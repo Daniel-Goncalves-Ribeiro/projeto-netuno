@@ -23,13 +23,14 @@
             <div id="formulário">
                 <h2>Formulário de Cadastro</h2>
                 <p>Preencha seus dados</p>
-                <form action="login.php" method="post" autocomplete="on">
+                <form action="login.php" method="post" autocomplete="on" required>
                     <div class="campo">
+                        <img src="icones/user.png" alt="">
                         <input type="text" name="nome" id="inome" placeholder="Nome Completo*" required maxlength="50">
                         <label for="inome">Nome:</label>
                     </div>
                     <div class="campo">
-                        <i></i>
+                        <img src="icones/mail.png" alt="" id="img">
                         <input type="email" name="login" id="ilogin" placeholder="E-mail*" autocomplete="email" required maxlength="50">
                         <label for="ilogin">E-mail:</label>
                     </div>
@@ -93,7 +94,7 @@
                             </div>
                             <p id="p1">(*)Campos Obrigatórios</p>
                                                 </div>
-                                                <a href="esqueci.html" class="botao">Enviar</a>
+                                                <button type="submit">Enviar</button>
                                                 <p id="p2">Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em <a href="#">política de privacidade.</a></p>
                                             </form>
                                         </div>
