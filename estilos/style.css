@@ -887,7 +887,3 @@ footer > a:hover {
     border: 2px solid var(--cor2);
     color: var(--cor0);
 }
-
-@media only screen and (max-width: 600px) {
-    
-}

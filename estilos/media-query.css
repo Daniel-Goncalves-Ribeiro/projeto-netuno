@@ -1,0 +1,109 @@
+/* CSS para telas pequenas (até 768px) */
+@media screen and (max-width: 768px) {
+    @charset "UTF-8";
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    :root{
+        --cor0: #1A7FBD;
+        --cor1: #A4DCFF;
+        --cor2: #000;
+        --cor3: #FFF;
+    
+        --fonte-padrao: "Noto Sans", sans-serif;
+    }
+    
+    body {
+        background-color: #1A7FBD;
+        font-family: var(--fonte-padrao);
+    }
+
+    nav {
+
+    }
+
+   section#login {
+        position: relative;
+        margin-top: 400px;
+        margin-left: 250px;
+    }
+
+    div#informativo {
+        top: 1000px;
+        left: 50px;
+    }
+
+    main >img {
+        display: none;
+    }
+
+    div#problema {
+        background-color: var(--cor3);
+        top: 1500px;
+        left: 50px;
+    }
+
+    div#container3 {
+        top:1700px
+    }
+
+    div#icon{
+        position: relative;
+        top: 500px;
+        left: -150px;
+    }
+
+    div#icon2{
+        position: relative;
+        top: 505px;
+        left: -510px;
+    }
+    div#icon3{
+        position: relative;
+        top: 510px;
+        right: 870px;
+    }
+    div#icon4{
+        position: relative;
+        top: 515px;
+        left: -150px;
+    }
+    div#icon5{
+        position: relative;
+        top: 520px;
+        left: -510px;
+    }
+    div#icon6{
+        position: relative;
+        top: 525px;
+        right: 870px;
+    }
+    div#icon7{
+        position: relative;
+        top: 500px;
+        left: -800px;
+    }
+
+    div#problema1 {
+        position: absolute;
+        top:3000px;
+        right: 50px;
+    }
+
+    div#problema2 {
+        position: absolute;
+        top:3300px;
+        right: 50px;
+    }
+
+    div#problema3 {
+        position: absolute;
+        top:3600px;
+        right: 50px;
+    }
+}
