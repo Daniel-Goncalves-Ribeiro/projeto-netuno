@@ -127,7 +127,6 @@ div.campo > img {
 
 div.campo > img#img {
     position: absolute;
-    color: white;
     font-size: 2em;
     width: 15px;
     margin-top: 15px;
@@ -145,6 +144,19 @@ div.campo > input {
     border-radius: 8px;
     margin: 5px 35px;
     transform: translateY(-4px);
+}
+
+div.campo > select {
+    width: 92%;
+    margin-left: 27px;
+}
+
+div.campo > img#img1 {
+    position: absolute;
+    font-size: 2em;
+    width: 15px;
+    margin-top: 12px;
+    margin-left: 8px;
 }
 
 div#prog {
