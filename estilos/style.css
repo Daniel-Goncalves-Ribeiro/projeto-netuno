@@ -35,7 +35,7 @@ nav > a {
     border-radius: 10px;
     text-decoration: none;
     padding-right: 70px;
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 nav > a#botao {

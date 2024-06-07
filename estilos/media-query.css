@@ -24,7 +24,19 @@
     }
 
     nav {
+        width: auto;
+        font-size: .7em;
+        align-items: center;
+        padding-top: 0px;
+    }
 
+    nav > a {
+        position: relative;
+        margin-left: 0px;
+    }
+
+    .direction-line {
+        width: 100px;
     }
 
    section#login {
@@ -38,72 +50,230 @@
         left: 50px;
     }
 
-    main >img {
+    main > img {
         display: none;
     }
 
     div#problema {
         background-color: var(--cor3);
-        top: 1500px;
+        top: 1520px;
         left: 50px;
     }
 
-    div#container3 {
-        top:1700px
+    section#container3 {
+        top:1700px;
+        background-color: var(--cor3);
+    }
+
+    section#container3 > #img1, #img2 {
+        display: none;
     }
 
     div#icon{
         position: relative;
-        top: 500px;
+        top: 1305px;
         left: -150px;
     }
 
     div#icon2{
         position: relative;
-        top: 505px;
+        top: 1310px;
         left: -510px;
     }
     div#icon3{
         position: relative;
-        top: 510px;
+        top: 1315px;
         right: 870px;
     }
     div#icon4{
         position: relative;
-        top: 515px;
+        top: 1320px;
         left: -150px;
     }
     div#icon5{
         position: relative;
-        top: 520px;
-        left: -510px;
+        top: 1325px;
+        right: 510px;
     }
     div#icon6{
         position: relative;
-        top: 525px;
+        top: 1330px;
         right: 870px;
     }
     div#icon7{
         position: relative;
-        top: 500px;
-        left: -800px;
+        top: 1035px;
+        left: -450px;
+    }
+
+    #icon7 > a {
+        width: 49%;
+    }
+
+    #icon7 > img {
+        display: none;
+    }
+
+    img#vetor {
+        display: none;
     }
 
     div#problema1 {
         position: absolute;
-        top:3000px;
+        top:2000px;
         right: 50px;
     }
 
     div#problema2 {
         position: absolute;
-        top:3300px;
+        top:2250px;
         right: 50px;
     }
 
     div#problema3 {
         position: absolute;
-        top:3600px;
+        top:2500px;
         right: 50px;
     }
+
+    section#container3 > h1 {
+        position: relative;
+        top: 1300px;
+        left: 0px;
+    }
+
+    section#container4 {
+        position: relative; 
+        top: 1000px;
+    }
+
+    section#container4 > h1{
+        margin-left: 100px;
+    }
+
+    section#container4 > #obj1{
+        position: absolute;
+        top: 200px;
+        right: 40px; 
+    }
+
+    section#container4 > #obj2{
+        position: absolute;
+        top: 450px;
+        right: 40px;
+    }
+
+    section#container4 > #obj3{
+        position: absolute;
+        top: 700px;
+        right: 40px;
+    }
+
+    footer {
+        position: relative;
+        width: auto;
+        top: 1500px;
+    }
+
+    footer > img#logo{
+        position: absolute;
+        width: 200px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    
+    footer > img#fb {
+        position: absolute;
+        width: 18px;
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    
+    footer > img#ig {
+        position: absolute;
+        width: 18px;
+        margin-left: 80px;
+        margin-top: 150px;
+    }
+    
+    footer > img#in {
+        position: absolute;
+        width: 18px;
+        margin-left: 110px;
+        margin-top: 150px;
+    }
+    
+    footer > p#p14 {
+        position: absolute;
+        font-size: 0.5em;
+        margin-left: 50px;
+        margin-top: 180px;  
+    }
+    
+    footer > p#p15 {
+        font-size: 1em;
+        margin-left: 350px;
+        margin-top: 50px;  
+    }
+    
+    footer > p#p16 {
+        font-size: 1em;
+        margin-left: 350px;
+        margin-top: 15px;  
+    }
+    
+    footer > p#p17 {
+        font-size: 1em;
+        margin-left: 350px;
+        margin-top: 15px;  
+    }
+    
+    footer > p#p18 {
+        font-size: 1em;
+        margin-left: 350px;
+        margin-top: 15px; 
+    }
+    
+    footer > p#p19 {
+        font-size: 1em;
+        margin-left: 50px;
+        margin-top: 10px;  
+    }
+    
+    footer > p#p20 {
+        font-size: 1em;
+        margin-left: 50px;
+        margin-top: 40px;  
+    }
+    
+    footer > p#p21 {
+        font-size: 1em;
+        margin-left: 50px;
+        margin-top: 10px;  
+    }
+    
+    footer > a {
+        position: relative;
+        margin-left: 300px;
+        top: 250px;
+        background-color: var(--cor3);
+        border: 2px solid var(--cor0);
+        color: var(--cor2);
+        padding: 10px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        padding-right: 10px;
+        padding-top: 8px;
+    }
+    
+    footer > a:hover {
+        background-color: var(--cor1);
+        border: 2px solid var(--cor2);
+        color: var(--cor0);
+    }
+
+    
+
+
 }
