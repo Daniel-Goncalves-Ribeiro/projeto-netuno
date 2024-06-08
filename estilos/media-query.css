@@ -42,11 +42,9 @@
     }
 
     div#informativo {
-        background-image: url(../icones/dev.png);
-        background-position: center right;
         width: 100%;
-        top: 1000px;
-        left: 00px;
+        top: 900px;
+        left: 50px;
         background-size: cover;
         background-attachment: fixed;
     }
@@ -60,19 +58,15 @@
     }
 
     div#problema {
-        background-color: var(--cor3);
+        background-color: lightgray;
         width: 90%;
         top: 1520px;
         left: 40px;
-        background-image: url(../icones/Container2.png);
-        background-position: top right;
-        background-size: cover;
-        background-attachment: fixed;
     }
 
     section#container3 {
         top:1700px;
-        background-color: var(--cor3);
+        background-color: lightgray;
     }
 
     section#container3 > #img1, #img2 {
