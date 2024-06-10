@@ -42,9 +42,9 @@
     }
 
     div#informativo {
-        width: 100%;
+        width: 90%;
         top: 900px;
-        left: 50px;
+        left: 30px;
         background-size: cover;
         background-attachment: fixed;
     }
