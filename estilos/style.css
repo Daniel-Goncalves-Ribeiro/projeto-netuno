@@ -350,7 +350,7 @@ div#problema > p#p7{
 
 div#problema1{
     position: absolute;
-    top: 370%;
+    top: 355%;
     margin-left: 180px;
     text-align: center;
     font-size: 1em;
@@ -377,7 +377,7 @@ div#problema1 > p#p8 {
 
 div#problema2{
     position: absolute;
-    top: 370%;
+    top: 355%;
     margin-left: 595px;
     text-align: center;
     font-size: 1em;
@@ -404,7 +404,7 @@ div#problema2 > p#p9 {
 
 div#problema3{
     position: absolute;
-    top: 370%;
+    top: 355%;
     margin-left: 1010px;
     text-align: center;
     font-size: 1em;
@@ -644,7 +644,8 @@ div#icon6 > p {
 }
 
 div#icon7 > a {
-    position: absolute;
+    position: relative;
+    top: 110px;
     background-color: var(--cor2);
     text-decoration: none;
     color: var(--cor3);
@@ -663,8 +664,8 @@ div#icon7 > a:hover {
 }
 
 div#icon7 > img {
-    position: absolute;
-    margin-top: 12.5px;
+    position: relative;
+    margin-top: 76px;
     margin-left: 915px;
     padding: 13px;
     width: 1.5%;
@@ -673,7 +674,7 @@ div#icon7 > img {
 
 img#vetor {
     position: absolute;
-    top: 520%;
+    top: 510%;
     margin-left: 650px;
 }
 
@@ -694,7 +695,7 @@ section#container4 > h1 {
 
 div#obj1{
     position: absolute;
-    top: 580%;
+    top: 570%;
     margin-left: 180px;
     text-align: center;
     font-size: 1em;
@@ -722,7 +723,7 @@ div#obj1 > p#p11 {
 
 div#obj2{
     position: absolute;
-    top: 580%;
+    top: 570%;
     margin-left: 595px;
     text-align: center;
     font-size: 1em;
@@ -749,7 +750,7 @@ div#obj2 > p#p12 {
 
 div#obj3{
     position: absolute;
-    top: 580%;
+    top: 570%;
     margin-left: 1010px;
     text-align: center;
     font-size: 1em;
